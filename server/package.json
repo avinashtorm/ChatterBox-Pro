@@ -1,0 +1,29 @@
+{
+  "name": "chatterbox-pro-server",
+  "version": "1.0.0",
+  "description": "Backend server for ChatterBox Pro - A MERN Real-Time Chat Application",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "mern",
+    "chat",
+    "socket.io",
+    "express",
+    "mongodb"
+  ],
+  "author": "Avinash Chandel",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
